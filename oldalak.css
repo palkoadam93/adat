@@ -1,0 +1,17 @@
+body {
+    font-family: Arial;
+    background-color:rgb(60, 60, 60);
+    color: white;
+}
+a {
+    text-decoration: none;
+    color: orange;
+}
+a:hover {
+    background-color: orange;
+    color: white;
+}
+
+section {overflow:auto;}
+.R {float:right; width:45%;}
+.L {float:left; width:45%;}
