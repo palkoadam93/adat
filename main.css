@@ -4,27 +4,9 @@ body {
     color: white;
 }
 
-/*
-article {
-    width: 45%;
-    border: 1px solid;
+h3 {
+    background-color: grey;
 }
-
-#prog {
-    float: left;
-}
-
-#irodai {
-    float: left;
-}
-
-#media {
-    float: left;
-}
-
-#lang {
-    float: left;
-}*/
 
 a {
     display: block;
