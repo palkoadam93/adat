@@ -22,3 +22,10 @@ section {overflow:auto;}
 p, li{
     text-align: justify;
 }
+
+@media (min-width: 768px){
+    body {
+        width: 60%;
+        margin: auto;
+    }
+}
