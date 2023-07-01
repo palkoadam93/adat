@@ -18,3 +18,7 @@ a:hover {
 section {overflow:auto;}
 .R {float:right; width:45%;}
 .L {float:left; width:45%;}
+
+p, li{
+    text-align: justify;
+}
