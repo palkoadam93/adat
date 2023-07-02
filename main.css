@@ -1,24 +1,52 @@
 body {
     font-family: Arial;
-    background-color:rgb(60, 60, 60);
+    background-image:url('https://upload.wikimedia.org/wikipedia/commons/9/93/InternalIntegratedCircuit2.JPG');
     color: white;
+}
+
+* { margin: 0;}
+
+h1 {
+    line-height: 200%;
+    /*background: rgba(255,255,255,.8);*/
+    background-image: linear-gradient(to right, white, red);
+    color: black;
+    text-align: center;
 }
 
 h3 {
-    background-color: grey;
+    /*background-color: grey;*/
+    background-image: linear-gradient(to right, grey, white);
+    line-height: 200%;
+    text-indent: 1em;
 }
 
 a {
+    background-color: rgba(255,255,255,.8);
     display: block;
-    color: white;
-    text-decoration: none;
     text-align: center;
+    color: black;
     padding: 10px;
+    text-decoration: none;
 }
 
 a:hover {
     background-color: orange;
     color: white;
+}
+
+section {
+    overflow: auto;
+}
+
+.left {
+    width: 45%;
+    float: left;
+}
+
+.right {
+    width: 45%;
+    float: right;
 }
 
 @media (min-width: 768px){
