@@ -20,3 +20,10 @@ a:hover {
     background-color: orange;
     color: white;
 }
+
+@media (min-width: 768px){
+    body {
+        width: 60%;
+        margin: auto;
+    }
+}
