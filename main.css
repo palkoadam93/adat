@@ -1,6 +1,8 @@
 body {
     font-family: Arial;
-    background-image:url('https://upload.wikimedia.org/wikipedia/commons/9/93/InternalIntegratedCircuit2.JPG');
+    background-image:url('graphicb.jpg');
+    background-size: 100%;
+    background-attachment: fixed;
     color: white;
 }
 
