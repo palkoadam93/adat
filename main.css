@@ -16,6 +16,8 @@ h1 {
     text-align: center;
     position: sticky;
     top: 0;
+    font-family: 'Crimson Text', serif;
+    font-size: 4em;
 }
 
 h3 {
