@@ -43,19 +43,19 @@ section {
     overflow: auto;
 }
 
-.left {
-    width: 45%;
-    float: left;
-}
-
-.right {
-    width: 45%;
-    float: right;
-}
-
 @media (min-width: 768px){
     body {
         width: 60%;
         margin: auto;
+    }
+    .bal {
+        float: left;
+        width: 49%;
+        margin-bottom: 1em;
+    }
+    .jobb {
+        float: right;
+        width: 49%;
+        margin-bottom: 1em;
     }
 }
