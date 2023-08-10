@@ -14,7 +14,6 @@ h1 {
     background-image: linear-gradient(to right, white, red);
     color: black;
     text-align: center;
-    position: sticky;
     top: 0;
     font-family: 'Crimson Text', serif;
     font-size: 4em;
@@ -25,6 +24,15 @@ h1 a, h1 a:hover {
     color: initial;
     padding: initial;
     text-decoration: initial;
+}
+
+h2 {
+    text-indent: 1em;
+    line-height: 200%;
+    background-color: rgba(255,0,0,.8);
+    color: black;
+    top: 0;
+    text-align: center;
 }
 
 h3 {
