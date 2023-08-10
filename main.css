@@ -20,6 +20,13 @@ h1 {
     font-size: 4em;
 }
 
+h1 a, h1 a:hover {
+    background-color: initial;
+    color: initial;
+    padding: initial;
+    text-decoration: initial;
+}
+
 h3 {
     /*background-color: grey;*/
     background-image: linear-gradient(to right, grey, white);
