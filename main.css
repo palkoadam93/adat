@@ -16,7 +16,7 @@ h1 {
     text-align: center;
     position: sticky;
     top: 0;
-    font-family: 'Crimson Text', serif;
+    font-family: 'Inter', sans-serif;
     font-size: 4em;
 }
 /*
@@ -34,6 +34,7 @@ h2 {
     top: 0;
     text-align: center;
     cursor: pointer;
+    font-family: 'Inter', sans-serif;
 }
 
 h2:hover {
