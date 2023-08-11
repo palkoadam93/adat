@@ -28,13 +28,18 @@ h1 a, h1 a:hover {
 }
 */
 h2 {
-    text-indent: 1em;
     line-height: 200%;
     background-color: rgba(255,0,0,.8);
     color: black;
     top: 0;
     text-align: center;
+    cursor: pointer;
 }
+
+h2:hover {
+    background-color: #ccc;
+    transition: 4ms;
+  }
 
 h3 {
     /*background-color: grey;*/
@@ -42,6 +47,15 @@ h3 {
     line-height: 200%;
     text-indent: 1em;
 }
+
+/* === === === ACCORDION BEGIN === === === */
+  .panel {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+  }
+
+/* === === === ACCORDION END === === === */
 
 a {
     background-color: rgba(255,255,255,.8);

@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width">
     <link rel="shortcut icon" type="image/x-icon" href="https://cdn.discordapp.com/attachments/1042810695009452067/1080198461368057876/Untitled5_20230228194256.png">
     <link rel="stylesheet" href="main.css">
-    <title>Számítógépes grafika és a programozás alapjai</title>
+    <title>Palkotikum Studios</title>
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -14,6 +14,8 @@
   <body>
     <h1>Palkotikum Studios</h1>
 
+    <h2>Alapképzés</h2>
+    <div class="panel">
     <div class="bal">
       <h3>1. modul | Matematikai alapok</h3>
       <a href="eukl.html">Euklideszi geometria</a>
@@ -24,7 +26,6 @@
       <a href="nummat2.html">Numerikus matematika 2.</a>
       <a href="graf.html">Gráfelmélet</a>
     </div>
-    
     <div class="jobb">
       <h3>2. modul | Programozási alapok</h3>
       <a href="alg.html">Adatszerkezetek és algoritmusok</a>
@@ -34,9 +35,11 @@
       <a href="pythonalapjai.html">A Python programozási nyelv alapjai</a>
       <a href="progkonyvek.html">Programozásról könyvek</a>
     </div>
+    </div>
     <div style="clear:both"></div>
 
-    <h2><a href="https://palkoadam93.github.io/magaskulturak/">Művészeti Stúdió</a></h2>
+    <h2>Művészeti Stúdió</h2>
+    <div class="panel">
     <div class="bal">
       <h3>3. modul | Számítógépes grafika</h3>
       <a href="compgraph.html">Számítógépes grafika</a>
@@ -48,13 +51,15 @@
     <div class="jobb">
       <h3>Projektek</h3>
       <a href="muvszakkor.html">Művészeti Szakkör</a>
-      <a href="#" target="_blank">Magaskultúrák illusztrációk</a>
+      <a href="https://palkoadam93.github.io/magaskulturak/" target="_blank">Magaskultúrák illusztrációk</a>
       <a href="magasktarsas.html">Magaskultúrák tábla & kártyák</a>
       <a href="vizsgraf.html">Grafika vizsgák</a>
+    </div>
     </div>
     <div style="clear:both"></div>
 
     <h2>AO 3D Stúdió</h2>
+    <div class="panel">
     <div class="bal">
       <h3>4. modul | 3D modellezés és nyomtatás</h3>
       <a href="blender.html">Blender - modellezés</a>
@@ -66,15 +71,16 @@
       <a href="3ddekor.html">Nemzeti lakásdekor</a>
       <a href="magasktarsas.html">Magaskultúrák bábuk</a>
     </div>
+    </div>
     <div style="clear:both"></div>
 
     <h2>Multimédia képzés</h2>
+    <div class="panel">
     <div class="bal">
       <h3>Képszerkesztés</h3>
       <a href="kep.html">Képfeldolgozás</a>
       <a href="gimp.html">GIMP</a>
       <a href="terkep.html">Térinformatika</a>
-
       <h3>Videószerkesztés</h3>
       <a href="video.html">Videószerkesztés</a>
     </div>
@@ -84,10 +90,11 @@
       <a href="zene.html">Zene</a>
       <a href="#">Szinkronizálás (nem létezik)</a>
     </div>
+    </div>
     <div style="clear:both"></div>
 
     <h2>Filmstúdió</h2>
-
+    <div class="panel">
     <div class="bal">
       <h3>Írás</h3>
       <a href="konyvklub.html">Könyvklub</a>
@@ -108,10 +115,11 @@
       <a href="#">Bolygók és bukások (nem létezik)</a>
       <a href="#">Trianon színdarab (nem létezik)</a>
     </div>
+    </div>
     <div style="clear:both"></div>
 
     <h2>Játékfejlesztő Stúdió</h2>
-
+    <div class="panel">
     <div class="bal">
       <h3>6. modul | Játékfejlesztés alapjai</h3>
       <a href="3djatek.html">3D játékfejlesztés</a>
@@ -120,10 +128,11 @@
       <h3>Projektek</h3>
       <a href="magaskvideo.html">Magaskultúrák</a>
     </div>
+    </div>
     <div style="clear:both"></div>
 
     <h2>Szoftverfejlesztő Stúdió</h2>
-
+    <div class="panel">
     <div class="bal">
       <h3>7. modul | Programozás haladó</h3>
       <a href="prog/nyelvek/python-halado.html">Modulok, objektumok, fájlkezelés Pythonban</a>
@@ -158,7 +167,6 @@
       <a href="prog/kvdb.html">Kulcs-érték adatbázis</a>
     </div>
     <div style="clear:both"></div>
-
     <div class="bal">
       <h3>11. modul | Webprogramozás</h3>
       <a href="prog/haloesweb.html">Hálózati és webes programozás</a>
@@ -179,5 +187,25 @@
       <a href="#">E-napló (nem létezik)</a>
     </div>
     <div style="clear:both"></div>
+    </div>
+
+    <!-- ACCORDION JAVASCRIPT BEGIN -->
+    <script>
+      var acc = document.getElementsByTagName("h2");
+      var i;
+
+      for (i = 0; i < acc.length; i++) {
+        acc[i].addEventListener("click", function() {
+          this.classList.toggle("active");
+          var panel = this.nextElementSibling;
+          if (panel.style.maxHeight) {
+            panel.style.maxHeight = null;
+          } else {
+            panel.style.maxHeight = panel.scrollHeight + "px";
+          } 
+        });
+      }
+    </script>
+    <!-- ACCORDION JAVASCRIPT BEGIN -->
   </body>
 </html>
