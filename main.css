@@ -52,11 +52,11 @@ h3 {
 }
 
 /* === === === ACCORDION BEGIN === === === */
-  .panel {
+section {
     max-height: 0;
     overflow: hidden;
     transition: max-height 0.2s ease-out;
-  }
+}
 
 /* === === === ACCORDION END === === === */
 
@@ -77,15 +77,6 @@ a:hover {
 a:visited {
     background-color: grey;
     color: white;
-}
-
-h2 a {
-    display: inline;
-    background-color: initial;
-}
-
-section {
-    overflow: auto;
 }
 
 /* === === FOOTER BEGIN === === */
