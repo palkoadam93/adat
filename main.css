@@ -74,6 +74,11 @@ a:hover {
     color: white;
 }
 
+a:active {
+    background-color: orange;
+    color: white;
+}
+
 h2 a {
     display: inline;
     background-color: initial;
