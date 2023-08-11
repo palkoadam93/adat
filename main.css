@@ -74,8 +74,8 @@ a:hover {
     color: white;
 }
 
-a:active {
-    background-color: orange;
+a:visited {
+    background-color: grey;
     color: white;
 }
 
