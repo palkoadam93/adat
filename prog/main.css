@@ -1,6 +1,6 @@
 body {
     font-family: Arial;
-    background-image:url('laserwallp.jpg');
+    background-image:url('25328.jpg');
     background-size: 100%;
     background-attachment: fixed;
     color: white;
@@ -16,24 +16,6 @@ h1 {
     text-align: center;
     position: sticky;
     top: 0;
-    font-family: 'Crimson Text', serif;
-    font-size: 4em;
-}
-/*
-h1 a, h1 a:hover {
-    background-color: initial;
-    color: initial;
-    padding: initial;
-    text-decoration: initial;
-}
-*/
-h2 {
-    text-indent: 1em;
-    line-height: 200%;
-    background-color: rgba(255,0,0,.8);
-    color: black;
-    top: 0;
-    text-align: center;
 }
 
 h3 {
@@ -57,28 +39,23 @@ a:hover {
     color: white;
 }
 
-h2 a {
-    display: inline;
-    background-color: initial;
-}
-
 section {
     overflow: auto;
+}
+
+.left {
+    width: 45%;
+    float: left;
+}
+
+.right {
+    width: 45%;
+    float: right;
 }
 
 @media (min-width: 768px){
     body {
         width: 60%;
         margin: auto;
-    }
-    .bal {
-        float: left;
-        width: 49%;
-        margin-bottom: 1em;
-    }
-    .jobb {
-        float: right;
-        width: 49%;
-        margin-bottom: 1em;
     }
 }
