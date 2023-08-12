@@ -42,10 +42,12 @@ a:hover {
     transition: 4ms;
 }
 
+/*
 a:visited {
     background-color: grey;
     color: white;
 }
+*/
 
 /* === === FOOTER BEGIN === === */
 /*
