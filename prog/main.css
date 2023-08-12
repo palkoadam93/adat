@@ -20,22 +20,22 @@ header h1 {
 }
 
 header h2 {
-    /*line-height: 200%;*/
     background-image: linear-gradient(to right, white, red);
     color: black;
     text-align: center;
     position: sticky;
     top: 0;
+    padding: 10px;
+    font-family: 'Inter', sans-serif;
 }
 
 main h2 {
     line-height: 200%;
     background-color: rgba(255,0,0,.8);
-    color: black;
+    color: white;
     top: 0;
     text-align: center;
     cursor: pointer;
-    font-family: 'Inter', sans-serif;
 }
 
 main h2:hover {

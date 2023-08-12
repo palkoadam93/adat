@@ -26,21 +26,22 @@ header h2 {
     text-align: center;
     position: sticky;
     top: 0;
-}
-
-main h2 {
-    background-image: linear-gradient(to right, grey, white);
-    text-align: center;
-    cursor: pointer;
-    line-height: 200%;
-    color: black;
-    top: 0;
+    padding: 10px;
     font-family: 'Inter', sans-serif;
 }
 
+main h2 {
+    background: rgba(128, 128, 128, .8);
+    text-align: center;
+    cursor: pointer;
+    line-height: 200%;
+    color: white;
+    top: 0;
+}
+
 main h2:hover {
-    background-color: orange;
-    transition: 4ms;
+    background-color: lightgrey;
+    /*transition: 4ms;*/
   }
 
 /* === === === ACCORDION BEGIN === === === */
