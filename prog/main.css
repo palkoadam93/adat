@@ -40,10 +40,10 @@ main h2:hover {
   }
 
 h3 {
-    /*background-color: grey;*/
     background-image: linear-gradient(to right, grey, white);
-    line-height: 200%;
-    text-indent: 1em;
+    padding: .5em;
+    text-transform: uppercase;
+    font-size: .9em;
 }
 
 /* === === === ACCORDION BEGIN === === === */
