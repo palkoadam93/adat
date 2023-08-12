@@ -8,31 +8,27 @@ body {
 
 * { margin: 0; }
 
-header h1 {
-    line-height: 200%;
+header {
     background-image: linear-gradient(to right, white, red);
+    font-family: 'Inter', sans-serif;
     color: black;
     text-align: center;
     position: sticky;
     top: 0;
-    font-family: 'Inter', sans-serif;
+}
+
+header h1 {
+    line-height: 200%;
     font-size: 4em;
 }
 
 header h2 {
-    /*line-height: 200%;*/
-    background-image: linear-gradient(to right, white, red);
-    color: black;
-    text-align: center;
-    position: sticky;
-    top: 0;
     padding: 10px;
-    font-family: 'Inter', sans-serif;
 }
 
 main h2 {
     line-height: 200%;
-    background-color: rgba(255, 127, 80, .8);
+    background-image: linear-gradient(to right, red, coral);
     color: white;
     top: 0;
     text-align: center;
@@ -45,7 +41,6 @@ main h2:hover {
   }
 
 h3 {
-    /*background-color: grey;*/
     background-image: linear-gradient(to right, grey, white);
     line-height: 200%;
     text-indent: 1em;

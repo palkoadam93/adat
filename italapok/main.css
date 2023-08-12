@@ -8,35 +8,30 @@ body {
 
 * { margin: 0;}
 
-header h1 {
-    line-height: 200%;
+header {
     background-image: linear-gradient(to right, white, red);
     color: black;
     text-align: center;
+    font-family: 'Inter', sans-serif;
     position: sticky;
     top: 0;
-    font-family: 'Inter', sans-serif;
+}
+
+header h1 {
+    line-height: 200%;
     font-size: 4em;
 }
 
 header h2 {
-    /*line-height: 200%;*/
-    background-image: linear-gradient(to right, white, red);
-    color: black;
-    text-align: center;
-    position: sticky;
-    top: 0;
     padding: 10px;
-    font-family: 'Inter', sans-serif;
 }
 
 main h2 {
-    background: rgba(128, 128, 128, .8);
+    background-image: linear-gradient(to right, grey, white);
     text-align: center;
     cursor: pointer;
     line-height: 200%;
-    color: white;
-    top: 0;
+    color: black;
 }
 
 main h2:hover {
