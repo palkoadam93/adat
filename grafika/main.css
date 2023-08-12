@@ -1,0 +1,104 @@
+body {
+    font-family: Arial;
+    background-image:url('laserwallp.jpg');
+    background-size: 100%;
+    background-attachment: fixed;
+    color: white;
+}
+
+* {
+    margin: 0;
+}
+
+h1 {
+    line-height: 200%;
+    /*background: rgba(255,255,255,.8);*/
+    background-image: linear-gradient(to right, white, red);
+    color: black;
+    text-align: center;
+    position: sticky;
+    top: 0;
+    font-family: 'Inter', sans-serif;
+    font-size: 4em;
+}
+/*
+h1 a, h1 a:hover {
+    background-color: initial;
+    color: initial;
+    padding: initial;
+    text-decoration: initial;
+}
+*/
+h2 {
+    line-height: 200%;
+    background-color: rgba(255,0,0,.8);
+    color: black;
+    top: 0;
+    text-align: center;
+    cursor: pointer;
+    font-family: 'Inter', sans-serif;
+}
+
+h2:hover {
+    background-color: #ccc;
+    transition: 4ms;
+  }
+
+h3 {
+    /*background-color: grey;*/
+    background-image: linear-gradient(to right, grey, white);
+    line-height: 200%;
+    text-indent: 1em;
+}
+
+/* === === === ACCORDION BEGIN === === === */
+section {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+}
+
+/* === === === ACCORDION END === === === */
+
+a {
+    background-color: rgba(255,255,255,.8);
+    display: block;
+    text-align: center;
+    color: black;
+    padding: 10px;
+    text-decoration: none;
+}
+
+a:hover {
+    background-color: orange;
+    color: white;
+}
+
+a:visited {
+    background-color: grey;
+    color: white;
+}
+
+/* === === FOOTER BEGIN === === */
+/*
+footer {
+}
+*/
+/* === === FOOTER END === === */
+
+@media (min-width: 768px){
+    body {
+        width: 60%;
+        margin: auto;
+    }
+    .bal {
+        float: left;
+        width: 49%;
+        margin-bottom: 1em;
+    }
+    .jobb {
+        float: right;
+        width: 49%;
+        margin-bottom: 1em;
+    }
+}
