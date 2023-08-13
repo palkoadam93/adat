@@ -20,11 +20,41 @@
     </header>
     
     <main>
-      <p><a href="antikirodalom.html">Antik irodalom</a></p>
-      <p><a href="nyugatiirodalom.html">Nyugati irodalom</a></p>
-      <p><a href="magyarirodalom.html">Magyar irodalom</a></p>
-      <p><a href="oroszirodalom.html">Orosz irodalom</a></p>
+      <h2>Antik irodalom</h2>
+      <section>
+
+      </section>
+      <h2>Nyugati irodalom</h2>
+      <section>
+
+      </section>
+      <h2>Magyar irodalom</h2>
+      <section>
+
+      </section>
+      <h2>Orosz irodalom</h2>
+      <section>
+        
+      </section>
     </main>
 
+    <!-- ACCORDION JAVASCRIPT BEGIN -->
+    <script>
+      var acc = document.getElementsByTagName("h2");
+      var i;
+
+      for (i = 0; i < acc.length; i++) {
+        acc[i].addEventListener("click", function() {
+          this.classList.toggle("active");
+          var panel = this.nextElementSibling;
+          if (panel.style.maxHeight) {
+            panel.style.maxHeight = null;
+          } else {
+            panel.style.maxHeight = panel.scrollHeight + "px";
+          } 
+        });
+      }
+    </script>
+    <!-- ACCORDION JAVASCRIPT END -->
   </body>
 </html>

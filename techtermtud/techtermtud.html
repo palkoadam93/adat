@@ -20,14 +20,64 @@
     </header>
     
     <main>
-      <p><a href="csillag.html">Csillagászat és űrkutatás</a></p>
-      <p><a href="termfoldr.html">Természetföldrajz</a></p>
-      <p><a href="bio.html">Biológia</a></p>
-      <p><a href="kezdet.html">Kérdések a kezdethez</a></p>
-      <p><a href="matekhalado.html">Matematika haladó</a></p>
-      <p><a href="fizikatech.html">Fizika és technika</a></p>
-      <p><a href="kemia.html">Kémia</a></p>
+      <h2>Csillagászat és űrkutatás</h2>
+      <section>
+
+      </section>
+      <h2>Természetföldrajz</h2>
+      <section>
+
+      </section>
+      <h2>Biológia</h2>
+      <section>
+        <a href="#">Növénytan</a>
+        <a href="#">Állattan</a>
+        <a href="#">Embertan</a>
+      </section>
+      <h2>Kérdések a kezdethez</h2>
+      <section>
+        <a href="#">Evolúció</a>
+        <a href="#">Teremtés</a>
+        <a href="#">A sors filozófiája</a>
+      </section>
+      <h2>Matematika haladó</h2>
+      <section>
+        <a href="#">Nemeuklideszi geometriák</a>
+        <a href="#">Algebra</a>
+        <a href="#">Analízis</a>
+        <a href="#">Trigonometria</a>
+        <a href="#">Halmazelmélet</a>
+        <a href="#">Kombinatorika</a>
+        <a href="#">Valószínűség-számítás</a>
+        <a href="#">Statisztika</a>
+      </section>
+      <h2>Fizika és technika</h2>
+      <section>
+
+      </section>
+      <h2>Kémia</h2>
+      <section>
+
+      </section>
     </main>
 
+    <!-- ACCORDION JAVASCRIPT BEGIN -->
+    <script>
+      var acc = document.getElementsByTagName("h2");
+      var i;
+
+      for (i = 0; i < acc.length; i++) {
+        acc[i].addEventListener("click", function() {
+          this.classList.toggle("active");
+          var panel = this.nextElementSibling;
+          if (panel.style.maxHeight) {
+            panel.style.maxHeight = null;
+          } else {
+            panel.style.maxHeight = panel.scrollHeight + "px";
+          } 
+        });
+      }
+    </script>
+    <!-- ACCORDION JAVASCRIPT END -->
   </body>
 </html>
