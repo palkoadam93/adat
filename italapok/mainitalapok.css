@@ -1,0 +1,20 @@
+body {
+    background-image:url('circuit.jpg');
+}
+
+header h2 {
+    letter-spacing: 0;
+}
+
+main h2 {
+    background-image: linear-gradient(to right, rgba(128,128,128,.8), rgba(255,255,255,.8));
+}
+
+a {
+    background-color: rgba(255,255,255,.8);
+}
+
+a:hover {
+    background-color: orange;
+    color: white;
+}

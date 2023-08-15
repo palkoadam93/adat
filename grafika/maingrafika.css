@@ -1,0 +1,20 @@
+body {
+    background-image:url('laserwallp.jpg');
+}
+
+header h2 {
+    letter-spacing: 0;
+}
+
+main h2 {
+    background-image: linear-gradient(to right, rgba(255,0,0,.8), rgba(255, 127, 80, .8));
+}
+
+a {
+    background-color: rgba(255,255,255,.8);
+}
+
+a:hover {
+    background-color: orange;
+    color: white;
+}

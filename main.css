@@ -1,10 +1,9 @@
 body {
-    font-family: Arial;
+    font-family: 'Inter', Arial, sans-serif;
     background-image:url('creative.jpg');
     background-size: 100%;
     background-attachment: fixed;
     color: white;
-    font-family: 'Inter', sans-serif;
 }
 
 * { margin: 0; }
@@ -27,6 +26,34 @@ header h2 {
     letter-spacing: 30px;
 }
 
+main h2 {
+    line-height: 200%;
+    color: white;
+    text-align: center;
+    cursor: pointer;
+    /*top: 0;*/
+}
+
+main h2:hover {
+    background-color: #00BFFF;
+    transition: 4ms;
+}
+
+h3 {
+    background-image: linear-gradient(to right, grey, white);
+    padding: .5em;
+    text-transform: uppercase;
+    font-size: .9em;
+}
+
+/* === === === ACCORDION BEGIN === === === */
+section {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+}
+/* === === === ACCORDION END === === === */
+
 a {
     background-color: rgba(255,0,0,.8);
     display: block;
@@ -41,20 +68,6 @@ a:hover {
     background-color: #ccc;
     transition: 4ms;
 }
-
-/*
-a:visited {
-    background-color: grey;
-    color: white;
-}
-*/
-
-/* === === FOOTER BEGIN === === */
-/*
-footer {
-}
-*/
-/* === === FOOTER END === === */
 
 @media (min-width: 768px){
     body {
