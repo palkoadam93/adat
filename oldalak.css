@@ -42,14 +42,23 @@ li {
     margin-left: 2em;
 }
 
+iframe {
+    width: 100%;
+}
+
 @media (min-width: 768px){
     body {
         width: 60%;
         margin: auto;
     }
 
+    p, ul, ol {
+        padding: 1em;
+    }
+
     iframe {
         display: block;
         margin:auto;
+        width: 560px;
     }
 }
