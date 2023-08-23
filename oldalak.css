@@ -47,4 +47,9 @@ li {
         width: 60%;
         margin: auto;
     }
+
+    iframe {
+        display: block;
+        margin:auto;
+    }
 }
