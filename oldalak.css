@@ -1,6 +1,5 @@
 body {
     font-family: Arial;
-    
     background-size: 100%;
     background-attachment: fixed;
     color: white;
@@ -8,13 +7,29 @@ body {
 
 * { margin: 0;}
 
+/* ALOLDAL HEADER BEGIN */
+header {
+    background-image: linear-gradient(to bottom right, rgb(255,0,0), rgba(255,255,255,.8));
+    position: sticky;
+    top: 0;
+    /*padding: 2em 2em;*/
+}
+
 h1 {
+    color: white;
+    text-align: center;
+    padding: 1em 1em;
+    font-family: 'Julius Sans One', sans-serif;
+    text-transform: uppercase;
+    text-align: left;
+}
+
+h2 {
     padding: 1em;
     background-image: linear-gradient(to right, white, grey);
     color: black;
-    position: sticky;
-    top: 0;
 }
+/* ALOLDAL HEADER END */
 
 h3 {
     background-image: linear-gradient(grey, red);
